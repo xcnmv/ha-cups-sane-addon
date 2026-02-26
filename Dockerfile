@@ -100,5 +100,5 @@ RUN wget https://gitlab.com/ScumCoder/splix/-/archive/patches/splix-patches.zip 
 
 RUN cd ..
 
-EXPOSE 631 8080
+EXPOSE 631 8080 6566
 CMD ["/run.sh"]
