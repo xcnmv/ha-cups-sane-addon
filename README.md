@@ -1,5 +1,5 @@
-# This is a very small modification from https://github.com/vtechs-ja/ha-cups-sane-addon 
-Basically it adds some extra printer drivers based of some of the docker file from here: https://github.com/neutralvibes/pi-cups
+# This is a very small modification from https://github.com/timrwwatson/ha-cups-sane-addon
+Please don't use it as it's just for testing. I intend to expose sane scanner to other devices on the local network.
 
 Otherwise there isn't anything new. I wasn't able to access the /data folders (due to running HA natively) thus forking and adding the repos at build time. 
 
@@ -31,7 +31,7 @@ Turn your HA host into a network print and scan server. Share USB printers and s
 
 ### Manual Installation
 1. **Add Repository**: Settings → Add-ons → ⋮ → Repositories  
-   Add: `https://github.com/timrwwatson/ha-cups-sane-addon`
+   Add: `https://github.com/xcnmv/ha-cups-sane-addon`
 2. **Install**: Find "Network Print & Scan Hub" and click Install
 3. **Configure**: Enable USB access and Host Network in addon settings
 4. **Start**: Click Start and monitor logs
