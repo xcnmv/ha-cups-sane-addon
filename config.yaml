@@ -19,10 +19,14 @@ logo: icon.png
 ports:
   631/tcp: 631
   631/udp: 631
+  6566/tcp: 6566
+  6566/udp: 6566
   8080/tcp: 8080
 ports_description:
   631/tcp: Used by other devices on the local network to post print jobs to this server (TCP)
   631/udp: Used by other devices on the local network to post print jobs to this server (UDP)
+  6566/tcp: Used by other devices on the local network to post scan jobs to this server (TCP)
+  6566/udp: Used by other devices on the local network to post scan jobs to this server (UDP)
   8080/tcp: Used to expose ScanServer web interface (TCP)
 ingress: true
 ingress_port: 8080
